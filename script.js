@@ -1,8 +1,8 @@
 //your JS code here. If required.
-student{
+let student{
 	key:"name"
 }
-Object.prototype.getKeys()=>{
+Object.prototype.getKeys=()=>{
 	let arr=[];
 	for(let key in Object) arr.push(key);
 	return arr;
